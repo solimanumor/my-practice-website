@@ -31,7 +31,9 @@
     font-weight: bold;
     font-size: 20px;
 }
-
+.text-center{
+    text-align: center;
+}
 /* Nav style */
 .header{
     background-image: url("images/developer.png"), url(images/header_bg.png);
@@ -90,6 +92,8 @@ nav ul {
 main{
     max-width: 1140px;
     margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 130px;
 }
 /* section style */
 .section-tittle{
@@ -118,4 +122,58 @@ main{
 .item-description{
     font-size: 20px;
     font-weight: bold;
+}
+
+/* What do i section */
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+
+}
+.text-center{
+    text-align: center;
+}
+.skill{
+    
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 50px 0 rgba(0, 0, 0, 0.25);
+}
+.skills-tittle-des{
+    padding: 50px 100px;
+
+}
+.skill-description{
+    text-align: left;
+}
+
+/* summery section */
+.resume-content-heading{
+    font-size: 30px;
+    font-weight: bold;
+}
+.resume-container{
+    display: flex;
+    padding: 20px;
+}
+.resume-content{
+    margin-left: 25px;
+    text-align: left;
+}
+
+.degree-tittle{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgba(71, 71, 71, 1);
+}
+.institute-name{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(117, 117, 117, 1);
+}
+.activity-des{
+    font-size: 15px;
+    color: rgba(117, 117, 117, 1);
+
 }
